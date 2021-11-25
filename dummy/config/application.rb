@@ -21,7 +21,7 @@ require "rails/test_unit/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module Dummy
+module Dummy # rubocop:disable Style/ClassAndModuleChildren
   class Application < Rails::Application
     config.generators.system_tests = nil
     # Initialize configuration defaults for originally generated Rails version.

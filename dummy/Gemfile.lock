@@ -12,7 +12,7 @@ GIT
 PATH
   remote: ..
   specs:
-    matestack_engine_boilerplate (0.1.0)
+    rails_matestack_admin (0.1.0)
       importmap-rails
       matestack-ui-bootstrap
       matestack-ui-core
@@ -197,9 +197,9 @@ PLATFORMS
 DEPENDENCIES
   debug (>= 1.0.0)
   devise!
-  matestack_engine_boilerplate!
   puma (~> 5.0)
   rails (~> 7.0.0.alpha2)
+  rails_matestack_admin!
   rspec-rails
   spring
   spring-commands-rspec

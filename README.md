@@ -1,4 +1,4 @@
-# MatestackEngineBoilerplate
+# RailsMatestackAdmin
 Short description and motivation.
 
 ## Usage
@@ -8,7 +8,7 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "matestack_engine_boilerplate"
+gem "rails_matestack_admin"
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install matestack_engine_boilerplate
+$ gem install rails_matestack_admin
 ```
 
 ## Contributing

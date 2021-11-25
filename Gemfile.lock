@@ -12,7 +12,7 @@ GIT
 PATH
   remote: .
   specs:
-    matestack_engine_boilerplate (0.1.0)
+    rails_matestack_admin (0.1.0)
       importmap-rails
       matestack-ui-bootstrap
       matestack-ui-core
@@ -205,7 +205,7 @@ PLATFORMS
 
 DEPENDENCIES
   devise!
-  matestack_engine_boilerplate!
+  rails_matestack_admin!
   rubocop-rails_config
   spring
   sqlite3

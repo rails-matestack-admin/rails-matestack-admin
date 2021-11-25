@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/matestack_engine_boilerplate/version"
+require_relative "lib/rails_matestack_admin/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "matestack_engine_boilerplate"
-  spec.version     = MatestackEngineBoilerplate::VERSION
+  spec.name        = "rails_matestack_admin"
+  spec.version     = RailsMatestackAdmin::VERSION
   spec.authors     = [""]
   spec.email       = [""]
   spec.homepage    = "https://google.com"

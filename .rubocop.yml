@@ -1,3 +1,24 @@
 inherit_gem:
   rubocop-rails_config:
     - config/rails.yml
+
+AllCops:
+  TargetRubyVersion: 2.7
+
+Layout/EmptyLines:
+  Enabled: true
+
+Bundler/DuplicatedGem:
+  Enabled: true
+
+Bundler/OrderedGems:
+  Enabled: true
+
+Lint/Debugger:
+  Enabled: true
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Layout/EndOfLine:
+  Enabled: false
