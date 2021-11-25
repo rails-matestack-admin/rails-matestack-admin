@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
-begin
-  load File.expand_path('../spring', __FILE__)
-rescue LoadError => e
-  raise unless e.message.include?('spring')
+# frozen_string_literal: true
+
+Dir.chdir('dummy') do
+  load 'bin/rspec'
 end
-require 'bundler/setup'
-load Gem.bin_path('rspec-core', 'rspec')

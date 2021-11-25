@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-pin "matestack-ui-bootstrap", to: "https://cdn.jsdelivr.net/npm/matestack-ui-bootstrap-beta@2.1.14/dist/matestack-ui-bootstrap.js"
+pin "matestack-ui-bootstrap", to: "https://cdn.jsdelivr.net/npm/matestack-ui-bootstrap-beta@2.1.15/dist/matestack-ui-bootstrap.js"
 pin "matestack-ui-core", to: "https://ga.jspm.io/npm:matestack-ui-core@2.1.1/lib/matestack/ui/vue_js/index.js"
 
 deps = {
